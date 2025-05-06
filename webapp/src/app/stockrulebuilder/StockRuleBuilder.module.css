@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  min-height: 600px;
+}
+
+.leftPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.scrollBox {
+  height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+}
+
+.operatorBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+}
+
+.termButton, .operatorButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.termButton:hover, .operatorButton:hover {
+  background: #d0d0d0;
+}
+
+.equationBox {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.equation {
+  min-height: 100px;
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1em;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.equationItem {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+
+.equationControls {
+  display: flex;
+  gap: 10px;
+}
+
+.featureInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.createButton, .clearButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createButton {
+  background: #4CAF50;
+  color: white;
+}
+
+.clearButton {
+  background: #f44336;
+  color: white;
+}
+
+.featuresList {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.featureItem {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.featureEquation {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.pageContainer {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #4CAF50, #2196F3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+} 
